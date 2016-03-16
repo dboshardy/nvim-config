@@ -1,9 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/drew-work/projects/google-master/google-coordinator-flows/src/user'
-let g:netrw_dirhist_2='/home/drew-work/projects/sov-bigquery/routes'
-let g:netrw_dirhist_3='/home/drew-work/variousFiles/audiences/gamers'
-let g:netrw_dirhist_4='/Volumes/NO NAME/tmux'
-let g:netrw_dirhist_5='/Users/ABoshardy/projects/dredge-ws/Dredge-ws/dredge-frontend/views'
-let g:netrw_dirhist_6='/Users/ABoshardy/projects/dredge-ws/Dredge/dredge-frontend/views'
-let g:netrw_dirhist_7='/Users/ABoshardy/projects/dredge-ws/Dredge/dredge-frontend/routes'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/ABoshardy/projects/dove/dove-config/dev'
+let g:netrw_dirhist_2='/Users/ABoshardy/Downloads/prod-extract'
+let g:netrw_dirhist_3='/Users/ABoshardy/projects/ni/ni-slack-hubot/scripts'
+let g:netrw_dirhist_4='/Users/ABoshardy/projects/dove/endpoint-monitor'
+let g:netrw_dirhist_5='/Users/ABoshardy/Downloads/dev-patch-test'

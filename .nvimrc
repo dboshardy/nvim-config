@@ -32,7 +32,8 @@ else " no gui
 endif
 
 " default colorscheme
-colors torte
+set background=dark
+"colors hybrid
 
 
 " personal snippet file location
@@ -77,9 +78,9 @@ if $COLORTERM == 'gnome-terminal'
       set t_Co=256
   endif
 
-"set TERM=xterm-256color
 " automatic brace completion for java-esque langs
 autocmd FileType java,javascript,node,efo inoremap { {<CR>}<Esc>ko
+autocmd FileType efo inoremap ( ()<Esc>i
 
 "remap leader
 let mapleader = "\<Space>"
@@ -88,3 +89,5 @@ vmap <C-v> <Plug>(expand_region_shrink)
 
 " force statusline to not show in favor of airline
 set noshowmode
+set foldmethod=syntax
+set clipboard=unnamed
